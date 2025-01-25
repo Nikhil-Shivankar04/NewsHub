@@ -1,0 +1,77 @@
+body{
+	background: linear-gradient(to right, #434343 0%, black 100%);
+}
+.navigations{
+    margin-left: 340px;
+}
+.navigations li{
+  padding: 10px;
+  padding-left: 80px;
+  float: left;
+  list-style: none;
+
+}
+.navigations li a{
+ padding: 2px;
+ text-decoration: none;
+ color: #000;
+ transition: 1.2s ease;
+}
+.navigations li a:hover{
+	border-bottom: 1px solid red;
+	translate: -2px;
+}
+form{
+	height: 300px;
+	width: 400px;
+	background-color: #f9f6ee;
+	margin:  200px 450px;
+	border-radius: 8px;
+}
+
+.field3{
+	height: 40px;
+	padding: 40px 70px;
+}
+.field3 select{
+	height: 35px;
+	width: 252px;
+	outline: none;
+	border: 2px solid #999;
+	color:  #999;
+}
+
+input[type="submit"]{
+	margin-left: 70px;
+	padding: 7px 70px;
+    height: 35px;
+	width: 252px;
+	outline: none;
+	border: 1px solid #999;	
+	font-size: 18px;
+}
+input[type="submit"]:hover{
+	color: #fff;
+	background-color: #000;
+	transition: 0.9s ease-out;
+	cursor: pointer;
+}
+.logo span{
+	padding: 5% 35%;
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+}
+.logo{
+    padding-top: 55px;
+}
+label{
+	font-size: 15px;
+	color: #999;
+}
+span{
+	font-size: 14px;
+	color: #000;
+	margin-left: 20px;
+	letter-spacing: 1px;
+}

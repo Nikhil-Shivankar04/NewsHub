@@ -1,0 +1,3 @@
+You have to manually create mysql database with name newssite and then import this sql file and you're ready to go!
+database used is xampp's MySQL jindly install xampp server to run the project.         
+													     by GT!
